@@ -1,0 +1,68 @@
+  @import url('https://fonts.googleapis.com/css?family=Sanchez');
+  body {
+    font-family: 'Sanchez', serif;
+    background-color:#39434b;
+    color:#52f573;
+     font-size:40px;
+   }
+  a {
+    color: #888;
+    display: table;
+    font-size: 18px;
+    margin: 0 auto;
+    text-align: center;
+    text-decoration: none;
+    width: auto;
+  }
+  a.btn {
+    color: #888;
+    border:1px solid #888;
+    border-radius:4px;
+    margin:10px auto;
+    padding:5px 10px;
+  }
+  a.btn:hover {
+    color:#FFF;  border:1px solid #FFF;
+  }
+  .content {
+    display: table;
+    margin: 20px auto;
+    text-align: center;
+    width: 70%;
+  }
+
+  /* Codigo para el cursor parpadeo animado */
+  .typed-cursor{
+    opacity: 1;
+    font-weight: 100;
+    -webkit-animation: blink 0.7s infinite;
+    -moz-animation: blink 0.7s infinite;
+    -ms-animation: blink 0.7s infinite;
+    -o-animation: blink 0.7s infinite;
+    animation: blink 0.7s infinite;
+  }
+  @-keyframes blink{
+    0% { opacity:1; }
+    50% { opacity:0; }
+    100% { opacity:1; }
+  }
+  @-webkit-keyframes blink{
+    0% { opacity:1; }
+    50% { opacity:0; }
+    100% { opacity:1; }
+  }
+  @-moz-keyframes blink{
+    0% { opacity:1; }
+    50% { opacity:0; }
+    100% { opacity:1; }
+  }
+  @-ms-keyframes blink{
+    0% { opacity:1; }
+    50% { opacity:0; }
+    100% { opacity:1; }
+  }
+  @-o-keyframes blink{
+    0% { opacity:1; }
+    50% { opacity:0; }
+    100% { opacity:1; }
+  }
